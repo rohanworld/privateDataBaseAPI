@@ -74,6 +74,9 @@
                             "</p><p class='card-text'>"+"Dept: <strong>"+output[i].dept+"</strong>"+
                             "</p><p class='card-text'>"+"Joined: <strong>"+output[i].yearOfJoin+"</strong>"+
                             "</p></div></div>" +"<br>";    
+                    }if(output.length == 0){
+                        result += 
+                        "<div class='card'><div class='card-body'>                                                     <h2 class='card-title'>"+"No DATA Found"+"</strong></h2>";
                     }
                     $("#result").html(result);
                 },
@@ -119,6 +122,9 @@
                             "</p><p class='card-text'>"+"Dept: <strong>"+output[i].dept+"</strong>"+
                             "</p><p class='card-text'>"+"Joined: <strong>"+output[i].yearOfJoin+"</strong>"+
                             "</p></div></div>" +"<br>";    
+                    }if(output.length == 0){
+                        result += 
+                        "<div class='card'><div class='card-body'>                                                     <h2 class='card-title'>"+"No DATA Found"+"</strong></h2>";
                     }
                     $("#result").html(result);
                 },
